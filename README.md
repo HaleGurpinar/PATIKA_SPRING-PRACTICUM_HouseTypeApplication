@@ -1,0 +1,1 @@
+# PATIKA_SPRING_PRACTICUM_1.Odev_EvTipleri
