@@ -1,21 +1,28 @@
 package com.hale.housetypeapp;
 
+import com.hale.housetypeapp.service.IBHouseService;
+import com.hale.housetypeapp.service.IBHouseServiceImpl;
+
 public class main {
 
     public static void main(String[] args) {
 
-        BaseHouse v= new Villa(200000,450,3,1);
-        System.out.println("Villa "+v);
+        IBHouseServiceImpl b =new IBHouseServiceImpl();
+        System.out.println(b.getHouseTotalPrice());
+        System.out.println(b.getVillaTotalPrice());
+        System.out.println(b.getSummerHouseTotalPrice());
+        //System.out.println(b.getAllPrice());
+        System.out.println(b.getHouseAvgSqMeter());
+        System.out.println(b.getVillaAvgSqMeter());
+        System.out.println(b.getSummerHouseAvgSqMeter());
+        System.out.println(b.getAllAverage());
+        System.out.println(b.getAllFiltered(4,2));
+        }
 
-        BaseHouse h= new House(600000,600,4,1);
-        System.out.println("House "+h);
-
-        BaseHouse s= new SummerHouse(100000,300,2,1);
-        System.out.println("SummerHouse "+s);
 
 
 
 
     }
 
-}
+
