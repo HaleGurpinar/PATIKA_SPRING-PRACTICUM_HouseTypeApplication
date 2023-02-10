@@ -1,4 +1,4 @@
-package com.hale.housetypeapp;
+package com.hale.housetypeapp.base;
 
 public abstract class BaseHouse {
 
