@@ -53,3 +53,5 @@
 * Nesneye yönelik programlamaya uygun tasarım yapınız.
 * Clean code prensiplerine uyunuz.
 * Main metot içinde tüm metotları konsola anlamlı şekilde yazdırınız.
+
+![](S1.PNG)
